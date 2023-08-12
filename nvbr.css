@@ -1,0 +1,26 @@
+.navbar {
+    background-color: #1a1c27;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.link {
+    color: white;
+    font-size: large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    
+}
+.big{
+    color:white;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow',bold;
+    
+
+}
+.navbar-label{
+    margin-top: -10px;
+}
