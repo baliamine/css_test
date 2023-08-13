@@ -1,4 +1,3 @@
-/* you should always do this bch tna7i l espace par defaut l yik */
 *{
     margin: 0;
     padding: 0;
@@ -8,8 +7,8 @@
   display: flex;
   background-color: #1a1c27;
   width: 100%;
-  height: 40px;
-  padding-top: 15px;
+  height: 50px;
+  padding-top: 20px;
   justify-content: space-between;
 
 }
@@ -29,14 +28,34 @@
 }
 #logo-nav{
   color: white;
-  font-size: 30px;
+  font-size: 38px;
+  margin-left: 40px;
+  margin-top:-10px;
   text-decoration: none;
   font-family: "Franklin Gothic Medium", "Arial Narrow", bold;
 }
-/* kaml l design mta3 l search t3alm kifeh ta3ml design ll input w raka7hom */
 .navbar-search {
   margin-right: 15px;
   width: 300px;
+  height: 30px;
   margin-left: 50px;
-  background-color: red;
+  background-color:#202236;
+  display: flex;
+  border:2px solid #262730;
+  justify-content: space-between;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-top: -4px;
+}
+.colored{
+  background-color:#202236;
+  outline: none;
+  border: none;
+  color:white;
+}
+.navbar-search>img
+{
+  width: 20px;
+  height: 20px;
+  margin-top: 5px;
 }
