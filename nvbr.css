@@ -1,42 +1,62 @@
-/* you should always do this bch tna7i l espace par defaut l yik */
-*{
-    margin: 0;
-    padding: 0;
+/* Reset default margin and padding for the body */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
 }
 
-.navbar-content {
+/* Style for the background */
+.background {
+  background-image: url('./img/bg-image.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
   display: flex;
-  background-color: #1a1c27;
-  width: 100%;
-  height: 40px;
-  padding-top: 15px;
-  justify-content: space-between;
-
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.navbar {
-  background-color: #1a1c27;
+
+/* Style for the navigation bar */
+nav {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 40px;
+  padding: 15px 15px;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
 }
 
-.link {
-  color: white;
-  font-size: large;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  text-decoration: none;
+nav li {
+  margin: 0 150px;
 }
-#logo-nav{
-  color: white;
-  font-size: 30px;
+
+nav a {
   text-decoration: none;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", bold;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease;
 }
-/* kaml l design mta3 l search t3alm kifeh ta3ml design ll input w raka7hom */
-.navbar-search {
-  margin-right: 15px;
-  width: 300px;
-  margin-left: 50px;
-  background-color: red;
+
+nav a:hover {
+  color: lightgray;
+}
+
+/* Style for the content container */
+.content {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 80px; /* Adjust this value to prevent content from being hidden behind the fixed navbar */
 }
