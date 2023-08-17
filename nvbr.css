@@ -7,7 +7,7 @@ body {
 
 /* Style for the background */
 .background {
-  background-image: url('./img/bg-image.jpg');
+  background-image: url('./img/image.jpg');
   background-size: cover;
   background-position: center;
   height: 100vh;
